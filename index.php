@@ -8,9 +8,13 @@
 </head>
 
 <body>
-    <?php
-    require_once "./includes/db.ini.php";
-    ?>
+    <h3>Submit</h3>
+    <form action="" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="text" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+        <button>Submit</button>
+    </form>
 </body>
 
 </html>
