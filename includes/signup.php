@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->execute([$username, $pwd, $email]);
         $pdo = null;
         $stmt = null;
-        header("Location: ../index.php");
+        header("Location: ../pages/success.php");
         die();
     } catch (PDOException $e) {
         die("Query failed: ") . $e->getMessage();

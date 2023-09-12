@@ -8,11 +8,10 @@
 </head>
 
 <body>
-    <div>
-        <?php
-        echo "Form was c=submited"
-        ?>
-    </div>
+    It doesn't work!
+    <form action="../index.php">
+        <button>Home</button>
+    </form>
 </body>
 
 </html>
