@@ -16,7 +16,6 @@
         <input type="text" name="email" placeholder="Email">
         <button>Submit</button>
     </form>
-
     <h3>Change user data</h3>
     <form action="includes/update.php" method="post">
         <input type="text" name="username" placeholder="Username">
