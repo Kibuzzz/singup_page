@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
     <title>Document</title>
 </head>
 
@@ -30,6 +29,13 @@
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="pwd" placeholder="Password">
         <button>Delete</button>
+    </form>
+
+    <h3>Search form</h3>
+    <form action="includes/search.php" method="post">
+        <label for="search">Search for user:</label>
+        <input id="search" type="text" name="userSearch" placeholder="search...">
+        <button>Search</button>
     </form>
 </body>
 
