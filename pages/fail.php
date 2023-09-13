@@ -8,14 +8,10 @@
 </head>
 
 <body>
-    <div>
-        You siqnup succesfully!
-    </div>
-
-    <form action="../../index.php">
-        <button>Back to signup page</button>
+    It doesn't work!
+    <form action="../index.php">
+        <button>Home</button>
     </form>
-
 </body>
 
 </html>
